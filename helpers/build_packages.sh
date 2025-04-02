@@ -281,6 +281,7 @@ if [ "$BUILDMW" = "1" ]; then
         buildmw -u "https://github.com/mer-hybris/pulseaudio-modules-droid-hidl.git" || die
         buildmw -u "https://github.com/mer-hybris/mce-plugin-libhybris" || die
         buildmw -u "https://github.com/mer-hybris/qt5-qpa-hwcomposer-plugin" || die
+        buildmw -u "https://github.com/sailfish-on-nabu/parse-android-dynparts" || die
         buildmw -u "https://github.com/370network/libaio" || die
         buildmw -u "https://github.com/sailfishos/lvm2" || die
         if [ $android_version_major -le 8 ]; then
